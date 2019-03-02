@@ -22,6 +22,8 @@
 $ composer require sedovsg/cbrf-dbf
 ```
 
+> Как установить сам [![Сomposer](https://getcomposer.org/download/)](https://getcomposer.org/download/)
+
 ## Использование
 
 Со структурой DBF-файлов, предоставляемыми кредитными учреждениями, можно ознакомиться на ресурсе: [http://www.zakonprost.ru/content/base/part/407425](http://www.zakonprost.ru/content/base/part/407425)
@@ -158,7 +160,7 @@ $dbf->сlose();
 ```
 
 ## Журнал Изменений
-Пожалуйста, смотрите [список изменений](CHANGELOG.md) для получения дополнительной информации о том, что изменилось в последнее время.
+Пожалуйста, смотрите [список изменений](https://github.com/SedovSG/cbrf-dbf/blob/master/CHANGELOG.md) для получения дополнительной информации о том, что изменилось в последнее время.
 
 ## Тестирование
 ```bash
@@ -167,4 +169,3 @@ $ vendor/bin/phpunit
 
 ## Лицензия
 Лицензия BSD 3-Clause. Пожалуйста, см. [файл лицензии](LICENSE) для получения дополнительной информации.
-
