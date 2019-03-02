@@ -3,6 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/sedovsg/cbrf-dbf/v/stable)](https://packagist.org/packages/sedovsg/cbrf-dbf)
 [![License](https://poser.pugx.org/sedovsg/cbrf-dbf/license)](LICENSE)
 [![Build Status](https://travis-ci.org/SedovSG/cbrf-dbf.svg?branch=master)](https://travis-ci.org/SedovSG/cbrf-dbf)
+[![Codecov](https://codecov.io/gh/SedovSG/cbrf-dbf/branch/master/graph/badge.svg)](https://codecov.io/gh/SedovSG/cbrf-dbf)
 [![Total Downloads](https://poser.pugx.org/sedovsg/cbrf-dbf/downloads)](https://packagist.org/packages/sedovsg/cbrf-dbf)
 
 Библиотека для работы с базой данных DBF, получения и обновления данных в формате DBF от Центрального банка Российской Федерации, которая проста в использовании.
