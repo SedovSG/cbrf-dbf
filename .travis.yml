@@ -20,11 +20,16 @@ install:
   - echo "extension=dbase.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
-  - phpenv config-rm xdebug.ini
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-source --dev
   - composer install
 
 script:
+  - vendor/bin/phpunit --coverage-clover=coverage.xml
   - ./vendor/bin/phpunit
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email: SedovSG@yandex.ru
