@@ -28,7 +28,7 @@ $ composer require sedovsg/cbrf-dbf
 ## Использование
 
 Структура и описание DBF-файлов:
-[Руководство пользователя ЦБ](https://github.com/SedovSG/cbrf-dbf/blob/master/кdocs/Manual CBRF.txt)
+[Руководство пользователя ЦБ](https://github.com/SedovSG/cbrf-dbf/blob/master/docs/Manual-CBRF.txt)
 
 ### Подключение к источнику данных
 ```php
