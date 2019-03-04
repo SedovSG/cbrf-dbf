@@ -27,7 +27,9 @@ $ composer require sedovsg/cbrf-dbf
 
 ## Использование
 
-Со структурой DBF-файлов, предоставляемыми кредитными учреждениями, можно ознакомиться на ресурсе: [http://www.zakonprost.ru/content/base/part/407425](http://www.zakonprost.ru/content/base/part/407425)
+Структура и описание DBF-файлов:
+[Руководство пользователя ЦБ](https://github.com/SedovSG/cbrf-dbf/blob/master/кdocs/Manual CBRF.txt)
+
 ### Подключение к источнику данных
 ```php
 use Cbrf\Dbf;
