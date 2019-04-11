@@ -429,7 +429,7 @@ class Dbf
     {
       foreach($this->include as $var)
       {
-        $include = $this->getIncluded($var);
+        $include[] = $this->getIncluded($var);
       }
 
       $this->included = array_filter($include);
