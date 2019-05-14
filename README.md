@@ -12,9 +12,17 @@
 Источник данных: [http://www.cbr.ru/Queries/FileSource/33411/GetBicCatalog.xml](http://www.cbr.ru/Queries/FileSource/33411/GetBicCatalog.xml)
 
 ## Требования
-- php7.0-dbase
-- php7.1-zip
-- php7.1-xml
+- php-dbase >= 7.0 ([PECL](https://pecl.php.net/package/dbase))
+- php-zip >= 7.1
+- php-xml >= 7.1
+
+#### Установка пакета PECL
+```bash
+$ sudo pecl install package_name;
+$ echo "extension=/usr/lib/php/20170718/package_name.so" | sudo tee /etc/php/7.2/mods-available/package.ini;
+$ sudo ln -s /etc/php/7.2/mods-available/package_name.ini /etc/php/7.2/cli/conf.d/;
+$ sudo ln -s /etc/php/7.2/mods-available/package_name.ini /etc/php/7.2/apache2/conf.d/
+```
 
 ## Установка
 Установка через Composer:
